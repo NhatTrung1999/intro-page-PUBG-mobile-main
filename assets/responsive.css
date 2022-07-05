@@ -1,0 +1,283 @@
+@media only screen and (max-width: 575px) {
+  .header-wrapper {
+    justify-content: flex-start;
+    margin-left: 19px;
+  }
+  
+  .content-wrap-img {
+    display: none;
+  }
+
+  .content-main-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+  }
+
+  .content-intro-game {
+    margin-right: 0;
+    margin-bottom: 67px;
+  }
+  
+  .content-header {
+    margin-left: 20px;
+    font-size: 20px;
+    height: auto;
+  }
+
+  .content-text {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    height: auto;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .content-showlists {
+    height: auto;
+  }
+
+  .content-main-text {
+    margin-top: 41px;
+    /* margin-bottom: 30px; */
+  }
+
+  .content-list-configuration {
+    height: auto;
+    margin-bottom: 98px;
+  }
+
+  .content-configuration > .content-header {
+    margin-left: 20px;
+  }
+
+  .content-list {
+    font-size: 20px;
+    margin: 0 20px;
+    padding-left: 30px;
+  }
+
+  .btn-trailer {
+    margin-top: 0;
+    margin-bottom: 36px;
+  }
+
+  .content-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mail-phone, .address {
+    margin-left: 20px;
+    font-size: 24px;
+  }
+
+  #google-map {
+    margin-left: 20px;
+    margin-bottom: 33px;
+  }
+
+  .popup {
+    width: 377px;
+  }
+
+  .popup > video {
+    width: 377px;
+    height: auto;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .content-wrap-img {
+    flex-wrap: wrap;
+  }
+
+  .content-showlists {
+    height: 325px;
+  }
+
+  .content-main-text {
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .content-intro-game {
+    margin-right: 0;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .content-wrap-img {
+    display: none;
+  }
+
+  .content-main-img {
+    margin-top: 20px;
+  }
+
+  .content-header {
+    height: auto;
+    margin-left: 0;
+  }
+
+  .content-text {
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: 0;
+    font-size: 24px;
+    max-width: 100%;
+  }
+
+  .content-configuration {
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .content-list {
+    font-size: 24px;
+  }
+
+  .btn-trailer {
+    margin-top: 67px;
+  }
+
+  .content-footer {
+    flex-direction: column;
+  }
+
+  .mail-phone, .address, #google-map {
+    margin-left: 20px;
+  }
+
+  .popup {
+    width: 550px;
+  }
+
+  .popup > video {
+    width: 550px;
+    height: auto;
+  }
+  
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .content-showlists {
+    height: 450px;
+    overflow: hidden;
+  }  
+
+  .content-wrap-img {
+    flex-wrap: wrap;
+  }
+
+  .content-main-img {
+    margin-top: 20px;
+  }
+
+  .content-intro-game {
+    margin-right: 0;
+  }
+
+  .content-main-text {
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 0;
+  }
+
+  .content-header, .content-text {
+    margin-left: 56px;
+  }
+
+  .content-text {
+    max-width: 100%;
+    margin-right: 56px;
+    height: auto;
+  }
+
+  .footer {
+    margin-top: 30px;
+  }
+
+  .content-configuration {
+    margin-left: 56px;
+    margin-top: 50px;
+  }
+
+  .content-footer {
+    flex-direction: column;
+  }
+
+  .mail-phone, .address, #google-map {
+    margin-left: 56px;
+  }
+
+  .popup {
+    width: 800px;
+  }
+
+  .popup > video {
+    width: 800px;
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1500px) {
+  .content-wrap-img {
+    flex-wrap: wrap;
+  }
+
+  .content-header, .content-text {
+    margin-left: 42px;
+    height: auto;
+  }
+
+  .content-main-text {
+    margin-right: 42px;
+  }
+
+  .content-main-text {
+    margin-top: 50px;
+  }
+
+  .content-main-img {
+    margin-top: 20px;
+  }
+
+  .footer {
+    margin-top: 30px;
+  }
+
+  .content-img-brand {
+    margin-left: 42px;
+    font-size: 22px;
+  }
+
+  .content-more-info {
+    font-size: 20px;
+  }
+
+  .mail-phone {
+    margin-left: 42px;
+  }
+
+  .address {
+    margin-right: 245px;
+  }
+
+  .popup {
+    width: 1000px;
+  }
+
+  .popup > video {
+    width: 1000px;
+    height: auto;
+  }
+}
